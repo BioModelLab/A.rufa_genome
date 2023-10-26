@@ -1,0 +1,3 @@
+ABINITIO_PREDICTION	Augustus	4
+PROTEIN	miniprot	10
+TRANSCRIPT	assembler-Alectoris_rufa	10
