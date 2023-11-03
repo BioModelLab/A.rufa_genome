@@ -1,7 +1,7 @@
 # Genome annotation
 The assembled genom were annotated using a combination methods:
-- Evidance from proteins sequences from close related species
-- Transcriptome from RNAseq were used
+- Proteins-based prediction using a sef of proteins sequences downloaded from the **NCBI**
+- Transcriptome-based methods using the RNAseq from the Biosample **SAMN03846984**  available at the [NCBI SRA](https://www.ncbi.nlm.nih.gov/biosample/SAMN03846984)
 - ab-initio were trained using external evidance (protein sequences)
 
 
@@ -34,4 +34,12 @@ docker run --rm -it \
         /usr/local/src/PASApipeline/Launch_PASA_pipeline.pl \
             -c sqlite.confs/alignAssembly.config -C -R \
             --ALIGNER gmap -g $genome_sf_masked_file -t $transcriptom_assembly '
+```
+## ab-initio prediction
+```
+conda activate braker3-deps2
+braker.pl --cores 70 --gff3 --genome=$genome --species=Alectoris-rufa --prot_seq=$proteins \
+--softmasking --workingdir=braker2 --useexisting --PROTHINT_PATH=/home/abdul/gmes_linux_64/ProtHint/bin
+conda deactivate
+
 ```
