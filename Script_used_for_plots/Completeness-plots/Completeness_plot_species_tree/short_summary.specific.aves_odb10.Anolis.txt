@@ -1,0 +1,30 @@
+# BUSCO version is: 5.4.6 
+# The lineage dataset is: aves_odb10 (Creation date: 2021-02-19, number of genomes: 62, number of BUSCOs: 8338)
+# Summarized benchmarking in BUSCO notation for file /media/abdul/data/GEMOMA-to-Phylogeny/ASSEMBLIES/two_species/anoli/Anolis_reptile.fasta
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:79.6%[S:78.2%,D:1.4%],F:3.0%,M:17.4%,n:8338	   
+	6641	Complete BUSCOs (C)			   
+	6524	Complete and single-copy BUSCOs (S)	   
+	117	Complete and duplicated BUSCOs (D)	   
+	252	Fragmented BUSCOs (F)			   
+	1445	Missing BUSCOs (M)			   
+	8338	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	6457	Number of scaffolds
+	41987	Number of contigs
+	1799143587	Total length
+	5.435%	Percent gaps
+	150 MB	Scaffold N50
+	79 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.4.6

@@ -1,0 +1,30 @@
+# BUSCO version is: 5.4.6 
+# The lineage dataset is: aves_odb10 (Creation date: 2021-02-19, number of genomes: 62, number of BUSCOs: 8338)
+# Summarized benchmarking in BUSCO notation for file /media/abdul/Data2TB/arufa-project/synteny/Aves/ASSEMBLY/Numida_meleagris.fasta
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:96.8%[S:96.6%,D:0.2%],F:0.6%,M:2.6%,n:8338	   
+	8069	Complete BUSCOs (C)			   
+	8053	Complete and single-copy BUSCOs (S)	   
+	16	Complete and duplicated BUSCOs (D)	   
+	53	Fragmented BUSCOs (F)			   
+	216	Missing BUSCOs (M)			   
+	8338	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	2466	Number of scaffolds
+	16014	Number of contigs
+	1043264150	Total length
+	1.929%	Percent gaps
+	97 MB	Scaffold N50
+	234 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.4.6

@@ -1,0 +1,11 @@
+Genetic information processing	2871
+Protein families: genetic information processing	2686
+Environmental information processing	1625
+Protein families: signaling and cellular processes	1500
+Cellular processes	734
+Organismal systems	708
+Protein families: metabolism	674
+Human diseases	311
+Carbohydrate metabolism	300
+Lipid metabolism	278
+Unclassified: signaling and cellular processes	250

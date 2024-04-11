@@ -1,0 +1,30 @@
+# BUSCO version is: 5.4.6 
+# The lineage dataset is: aves_odb10 (Creation date: 2021-02-19, number of genomes: 62, number of BUSCOs: 8338)
+# Summarized benchmarking in BUSCO notation for file /media/abdul/Data2TB/arufa-project/synteny/Aves/ASSEMBLY/Chicken.fasta
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:96.5%[S:96.2%,D:0.3%],F:0.8%,M:2.7%,n:8338	   
+	8048	Complete BUSCOs (C)			   
+	8020	Complete and single-copy BUSCOs (S)	   
+	28	Complete and duplicated BUSCOs (D)	   
+	65	Fragmented BUSCOs (F)			   
+	225	Missing BUSCOs (M)			   
+	8338	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	214	Number of scaffolds
+	677	Number of contigs
+	1053332251	Total length
+	0.321%	Percent gaps
+	90 MB	Scaffold N50
+	18 MB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.4.6

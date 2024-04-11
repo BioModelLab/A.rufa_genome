@@ -1,0 +1,18 @@
+# BUSCO version is: 5.4.3 
+# The lineage dataset is: aves_odb10 (Creation date: 2021-02-19, number of genomes: 62, number of BUSCOs: 8338)
+# Summarized benchmarking in BUSCO notation for file /media/abdul/Data2TB/arufa-project/annotation/evidmodeler/run1/A_rufa.EVM.pep
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:87.9%[S:87.5%,D:0.4%],F:2.1%,M:10.0%,n:8338	   
+	7330	Complete BUSCOs (C)			   
+	7295	Complete and single-copy BUSCOs (S)	   
+	35	Complete and duplicated BUSCOs (D)	   
+	176	Fragmented BUSCOs (F)			   
+	832	Missing BUSCOs (M)			   
+	8338	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	busco: 5.4.3

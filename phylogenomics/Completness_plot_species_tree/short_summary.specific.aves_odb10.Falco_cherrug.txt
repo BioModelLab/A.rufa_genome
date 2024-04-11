@@ -1,0 +1,30 @@
+# BUSCO version is: 5.4.6 
+# The lineage dataset is: aves_odb10 (Creation date: 2021-02-19, number of genomes: 62, number of BUSCOs: 8338)
+# Summarized benchmarking in BUSCO notation for file /media/abdul/Data2TB/arufa-project/synteny/Aves/ASSEMBLY/Falco_cherrug.fasta
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:96.8%[S:96.7%,D:0.1%],F:0.8%,M:2.4%,n:8338	   
+	8079	Complete BUSCOs (C)			   
+	8067	Complete and single-copy BUSCOs (S)	   
+	12	Complete and duplicated BUSCOs (D)	   
+	63	Fragmented BUSCOs (F)			   
+	196	Missing BUSCOs (M)			   
+	8338	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	5863	Number of scaffolds
+	75898	Number of contigs
+	1174811715	Total length
+	2.027%	Percent gaps
+	4 MB	Scaffold N50
+	31 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.4.6

@@ -1,0 +1,30 @@
+# BUSCO version is: 5.4.6 
+# The lineage dataset is: aves_odb10 (Creation date: 2021-02-19, number of genomes: 62, number of BUSCOs: 8338)
+# Summarized benchmarking in BUSCO notation for file /media/abdul/Data2TB/arufa-project/synteny/Aves/ASSEMBLY/Centrocercus_urophasianus.fasta
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:95.9%[S:95.6%,D:0.3%],F:0.8%,M:3.3%,n:8338	   
+	7992	Complete BUSCOs (C)			   
+	7968	Complete and single-copy BUSCOs (S)	   
+	24	Complete and duplicated BUSCOs (D)	   
+	70	Fragmented BUSCOs (F)			   
+	276	Missing BUSCOs (M)			   
+	8338	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	1502	Number of scaffolds
+	11396	Number of contigs
+	1010657860	Total length
+	3.660%	Percent gaps
+	34 MB	Scaffold N50
+	177 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.4.6

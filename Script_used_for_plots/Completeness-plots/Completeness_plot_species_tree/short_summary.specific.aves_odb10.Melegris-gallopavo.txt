@@ -1,0 +1,30 @@
+# BUSCO version is: 5.4.6 
+# The lineage dataset is: aves_odb10 (Creation date: 2021-02-19, number of genomes: 62, number of BUSCOs: 8338)
+# Summarized benchmarking in BUSCO notation for file /media/abdul/Data2TB/arufa-project/synteny/Aves/ASSEMBLY/Melegris-gallopavo.fasta
+# BUSCO was run in mode: euk_genome_met
+# Gene predictor used: metaeuk
+
+	***** Results: *****
+
+	C:90.1%[S:89.9%,D:0.2%],F:5.1%,M:4.8%,n:8338	   
+	7511	Complete BUSCOs (C)			   
+	7492	Complete and single-copy BUSCOs (S)	   
+	19	Complete and duplicated BUSCOs (D)	   
+	428	Fragmented BUSCOs (F)			   
+	399	Missing BUSCOs (M)			   
+	8338	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	185175	Number of scaffolds
+	250130	Number of contigs
+	1115474681	Total length
+	3.164%	Percent gaps
+	59 MB	Scaffold N50
+	27 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	metaeuk: 6.a5d39d9
+	busco: 5.4.6

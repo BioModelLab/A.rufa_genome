@@ -1,0 +1,20 @@
+2023-11-30 12:39:12 INFO:__main__	****************** Start plot generation at 11/30/2023 12:39:12 ******************
+2023-11-30 12:39:12 INFO:__main__	Load data ...
+2023-11-30 12:39:12 INFO:__main__	Loaded ./short_summary.specific.aves_odb10.Alectoris_rufa.fasta_busco.txt successfully
+2023-11-30 12:39:12 INFO:__main__	Loaded ./short_summary.specific.aves_odb10.busco_EVM11.txt successfully
+2023-11-30 12:39:12 INFO:__main__	Generate the R code ...
+2023-11-30 12:39:12 INFO:__main__	Run the R code ...
+2023-11-30 12:39:14 INFO:__main__	
+[1] "Plotting the figure ..."
+[1] "Done"
+
+2023-11-30 12:39:14 ERROR:__main__	
+Warning message:
+package ‘ggplot2’ was built under R version 4.2.3 
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+
+2023-11-30 12:39:14 INFO:__main__	Plot generation done. Total running time: 1.3936128616333008 seconds
+2023-11-30 12:39:14 INFO:__main__	Results written in ./
+
