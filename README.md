@@ -1,4 +1,3 @@
-# About this repo
+# Analysis of the red-legged patridge genome
 
-This repository is still under update. we will upload all the code and relevant data 
-to the new denovo assembly of Alectoris rufa (Red-legged partridge)
+This repository contaions the code used to assemble/annotate the Red-legged patridge (Alectoris rufa) genome, as well as relevant data files.
